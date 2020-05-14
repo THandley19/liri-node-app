@@ -11,3 +11,19 @@ When you run the command `node liri.js concert-this <artist/band name here>`
 You will see this:
 
 ![alt text](https://github.com/THandley19/liri-node-app/blob/master/App%20Working%20Screenshots/concert-this.PNG?raw=true)
+
+### Spotify-This-Song
+
+When you run the command `node liri.js spotify-this-song '<song name here>`
+
+You will see this:
+
+![alt text](https://github.com/THandley19/liri-node-app/blob/master/App%20Working%20Screenshots/spotify-this.PNG?raw=true)
+
+### Movie-This-Song
+
+When you run the command `node liri.js movie-this '<movie name here>'`
+
+You will see this:
+
+![alt text](https://github.com/THandley19/liri-node-app/blob/master/App%20Working%20Screenshots/movie-this.PNG?raw=true)
