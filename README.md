@@ -10,4 +10,4 @@ When you run the command `node liri.js concert-this <artist/band name here>`
 
 You will see this:
 
-![alt text](https://github.com/THandley19/liri-node-app/blob/master/App%20Working%20Screenshots/concert-this.PNG?raw=true
+![alt text](https://github.com/THandley19/liri-node-app/blob/master/App%20Working%20Screenshots/concert-this.PNG?raw=true)
