@@ -10,7 +10,7 @@ var Spotify = require('node-spotify-api');
 
 var spotify = new Spotify(keys.spotify);
 
-
+// I would format and standardized the user input
 var userinput1 = process.argv[2];
 var userinput2 = process.argv[3];
 
@@ -21,7 +21,8 @@ switch (userinput1) {
   case ("spotify-this-song"):
     spotifyThis();
     break;
-    case ("movie-this"):
+  // Always indent your code for easy readability 
+  case ("movie-this"):
     movieThis();
     break;
   default:
@@ -30,6 +31,7 @@ switch (userinput1) {
 
 
 function concertThis() {
+  // APi Keys should never be expose like this when you can hide them in an .env file
   axios.get("https://rest.bandsintown.com/artists/" + userinput2 + "/events?app_id=codingbootcamp").then(
     function (response) {
       for (let i = 0; i < response.data.length; i++) {
@@ -67,6 +69,7 @@ function spotifyThis() {
 }
 
 function movieThis() {
+  // APi Keys should never be expose like this when you can hide them in an .env file
   axios.get("http://www.omdbapi.com/?apikey=trilogy&" + "t=" + userinput2).then(
     function (response) {
       console.log("==================")
